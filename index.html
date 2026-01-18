@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seamless Travel | Premium Travel Experiences</title>
+  
+  <!-- Modern Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- CSS Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="fw-bold" style="color: var(--deep-teal);">SEAMLESS</span>
+        <span style="color: var(--teal-accent);">TRAVEL</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destinations">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stores">Visit Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experiences</a>
+          </li>
+          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+            <a class="btn btn-modern" href="#planning">
+              <i class="fas fa-calendar-check me-2"></i>Book Now
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-slide" style="background-image: url('imgs/cape+tow.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('imgs/eiffel-tower-3349075_1280.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('imgs/jetty-1807471_1280.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('imgs/madid.jpg');"></div>
+    
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1 class="hero-title">Redefining Luxury Travel Experiences</h1>
+        <p class="hero-subtitle">Your journey begins with impeccable planning and ends with unforgettable memories</p>
+        <div class="hero-buttons">
+          <a href="#planning" class="btn btn-modern btn-lg px-4 me-2">Start Planning</a>
+          <a href="#destinations" class="btn btn-outline-modern btn-lg px-4">Explore Journeys</a>
+        </div>
+      </div>
+      
+      <!-- Bouncing Chevron -->
+      <a href="#about" class="hero-chevron">
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Left Column: About Description -->
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <h2 class="section-title text-start mb-4">Where Dreams Meet Destination</h2>
+          <p class="lead mb-4">
+            At Seamless Travel, we don't just plan trips—we craft personalized journeys that resonate with your spirit of adventure. Our philosophy is simple: extraordinary travel should be effortless, authentic, and transformative.
+          </p>
+          <p class="mb-4">
+            With over 15 years of experience in luxury travel curation, we've mastered the art of creating unforgettable experiences. From hidden gems to iconic landmarks, we connect you with the world's most exclusive destinations through our global network of partners.
+          </p>
+          <a href="#planning" class="btn btn-modern">Discover Our Approach</a>
+        </div>
+        
+        <!-- Right Column: Icons -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="row">
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="feature-box h-100">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-globe-americas"></i>
+                </div>
+                <h5 class="mb-3">Global Network</h5>
+                <p class="text-muted">Access to exclusive destinations through our worldwide partners</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-box h-100">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-user-check"></i>
+                </div>
+                <h5 class="mb-3">Personal Curators</h5>
+                <p class="text-muted">Dedicated travel designers for truly bespoke experiences</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="feature-box h-100">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <h5 class="mb-3">24/7 Support</h5>
+                <p class="text-muted">Round-the-clock assistance throughout your journey</p>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="feature-box h-100">
+                <div class="feature-icon mb-3">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h5 class="mb-3">Award-Winning</h5>
+                <p class="text-muted">Recognized for excellence in luxury travel services</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section class="destinations-section section-padding" id="destinations">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <h2 class="section-title">Curated Destinations</h2>
+          <p class="lead">Discover our handpicked collection of extraordinary destinations</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class="destination-card">
+            <img src="imgs/iconic_landmarks.jpg" alt="International Landmarks">
+            <div class="destination-overlay">
+              <h4>Iconic Landmarks</h4>
+              <p>Experience the world's most breathtaking sites</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="destination-card">
+            <img src="imgs/retreat.jpg" alt="Luxury Stays">
+            <div class="destination-overlay">
+              <h4>Luxury Retreats</h4>
+              <p>Stay at the world's most exclusive properties</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="destination-card">
+            <img src="imgs/ocean.webp" alt="Cruises & Getaways">
+            <div class="destination-overlay">
+              <h4>Ocean Journeys</h4>
+              <p>Luxury cruising reimagined</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="destination-card">
+            <img src="imgs/adventure.jpg" alt="Adventure & Leisure">
+            <div class="destination-overlay">
+              <h4>Adventure Escapes</h4>
+              <p>Thrilling experiences in stunning locations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4" data-aos="fade-up">
+        <a href="#planning" class="btn btn-modern">View All Destinations</a>
+      </div>
+    </div>
+  </section>
+
+   <!-- Choose Your Experience Section -->
+  <section class="experience-section section-padding" id="experience">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <h2 class="section-title">Tailored Experiences</h2>
+          <p class="lead">Journeys crafted around your unique travel style</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-10 mx-auto text-center" data-aos="fade-up">
+          <p class="mb-4 lead">
+            Every traveler is unique, and so should be their journey. Whether you seek adventure, relaxation, cultural immersion, or luxury indulgence, we create experiences that perfectly align with your desires.
+          </p>
+          
+          <div class="row">
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="experience-item">
+                <div class="experience-icon mb-3">
+                  <i class="fas fa-umbrella-beach"></i>
+                </div>
+                <h5>Beach Getaways</h5>
+                <p class="text-muted">Secluded beaches & island paradises</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="150">
+              <div class="experience-item">
+                <div class="experience-icon mb-3">
+                  <i class="fas fa-mountain"></i>
+                </div>
+                <h5>Adventure Expeditions</h5>
+                <p class="text-muted">Thrilling outdoor adventures worldwide</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="experience-item">
+                <div class="experience-icon mb-3">
+                  <i class="fas fa-landmark"></i>
+                </div>
+                <h5>Cultural Immersion</h5>
+                <p class="text-muted">Authentic cultural experiences</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="250">
+              <div class="experience-item">
+                <div class="experience-icon mb-3">
+                  <i class="fas fa-wine-glass-alt"></i>
+                </div>
+                <h5>Culinary Tours</h5>
+                <p class="text-muted">Gourmet dining & wine experiences</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="experience-item">
+                <div class="experience-icon mb-3">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <h5>Romantic Escapes</h5>
+                <p class="text-muted">Perfect honeymoons & anniversary trips</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3" data-aos="fade-up" data-aos-delay="350">
+              <div class="experience-item">
+                <div class="experience-icon mb-3">
+                  <i class="fas fa-spa"></i>
+                </div>
+                <h5>Wellness Retreats</h5>
+                <p class="text-muted">Luxury wellness & spa experiences</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="#planning" class="btn btn-modern mt-4 px-4">Design Your Experience</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Services Section -->
+  <section class="services-section section-padding" id="services">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <h2 class="section-title">Comprehensive Services</h2>
+          <p class="lead">End-to-end travel solutions tailored to your needs</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="imgs/flights.webp" alt="Flight Reservations">
+            </div>
+            <h4>Flight Reservations</h4>
+            <p>Exclusive access to premium cabins and private charters with our global airline partnerships.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="imgs/lux_places.jpg" alt="Luxury Accommodations">
+            </div>
+            <h4>Luxury Accommodations</h4>
+            <p>VIP access to 5-star hotels, private villas, and exclusive resorts worldwide.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="imgs/lux_trasport.jpeg" alt="Premium Transportation">
+            </div>
+            <h4>Premium Transportation</h4>
+            <p>Private transfers, luxury car rentals, and helicopter services for seamless mobility.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="imgs/cruise_ship.avif" alt="Luxury Cruises">
+            </div>
+            <h4>Luxury Cruises</h4>
+            <p>Exclusive suites on world-class cruise lines and private yacht charters.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="imgs/bespoke.jpg" alt="Bespoke Itineraries">
+            </div>
+            <h4>Bespoke Itineraries</h4>
+            <p>Completely customized travel experiences designed around your preferences.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="imgs/private_guide.jpg" alt="Private Guided Tours">
+            </div>
+            <h4>Private Guided Tours</h4>
+            <p>Exclusive access to attractions with expert local guides.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit Our Stores Section -->
+  <section class="stores-section section-padding" id="stores">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <h2 class="section-title">Visit Our Stores</h2>
+          <p class="lead">Personalized service from our passionate travel experts</p>
+        </div>
+      </div>
+      
+      <div class="row align-items-center">
+        <!-- Left Column: Store Image -->
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <div class="store-image-container">
+            <img src="imgs/travel_pic.jpg" alt="Seamless Travel Store" class="store-image rounded-4">
+            <div class="store-overlay rounded-4">
+              <div class="store-info">
+                <h5 class="text-white mb-2">Opening Hours</h5>
+                <p class="text-white mb-1">Monday - Friday: 8:30 AM - 5:30 PM</p>
+                <p class="text-white mb-1">Saturday: 9:00 AM - 2:00 PM</p>
+                <p class="text-white">Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right Column: Store Information -->
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="stores-content">
+            <h3 class="mb-4">Step Into Our World of Travel</h3>
+            <p class="mb-4">
+              Visit us at any of our two conveniently located stores and meet with our team of passionate travel agents. Whether you're seeking expert advice, personalized recommendations, or assistance in planning your next adventure, our knowledgeable staff are here to help.
+            </p>
+            <p class="mb-4">
+              Sit down with one of our friendly agents to discuss your travel aspirations, preferences, and budget, and let us tailor a journey that exceeds your expectations. With our dedication to exceptional service and attention to detail, your dream vacation is just a visit away.
+            </p>
+            
+            <a href="#planning" class="btn btn-modern mb-4">
+              <i class="fas fa-map-marker-alt me-2"></i>Visit Here
+            </a>
+            
+            <div class="store-features mt-4">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="feature-item d-flex align-items-start">
+                    <div class="feature-icon me-3">
+                      <i class="fas fa-passport"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Visa Applications</h6>
+                      <p class="text-muted small mb-0">Get hands-on help with your visa applications</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="feature-item d-flex align-items-start">
+                    <div class="feature-icon me-3">
+                      <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Travel Agent Support</h6>
+                      <p class="text-muted small mb-0">Have our agents help you plan your dream trip</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="feature-item d-flex align-items-start">
+                    <div class="feature-icon me-3">
+                      <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">Destination Knowledge</h6>
+                      <p class="text-muted small mb-0">Expertise on destinations & cultural aspects</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="feature-item d-flex align-items-start">
+                    <div class="feature-icon me-3">
+                      <i class="fas fa-headset"></i>
+                    </div>
+                    <div>
+                      <h6 class="mb-1">In-Person Consultations</h6>
+                      <p class="text-muted small mb-0">Face-to-face planning for complex itineraries</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="store-locations mt-4">
+              <h6 class="mb-3">Our Store Locations:</h6>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="location-card p-3 mb-3 rounded-3">
+                    <h6 class="mb-2"><i class="fas fa-store me-2"></i>Sandton City</h6>
+                    <p class="small mb-1">Level 2, Sandton City Mall</p>
+                    <p class="small mb-1">Johannesburg, 2196</p>
+                    <p class="small mb-0"><i class="fas fa-phone me-1"></i>+27 11 234 5678</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="location-card p-3 mb-3 rounded-3">
+                    <h6 class="mb-2"><i class="fas fa-store me-2"></i>V&A Waterfront</h6>
+                    <p class="small mb-1">Shop 145, Victoria Wharf</p>
+                    <p class="small mb-1">Cape Town, 8001</p>
+                    <p class="small mb-0"><i class="fas fa-phone me-1"></i>+27 21 345 6789</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trip Planning Form Section -->
+  <section class="planning-section section-padding" id="planning">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <h2 class="section-title">Begin Your Journey</h2>
+          <p class="lead">Let us create your perfect travel experience</p>
+        </div>
+      </div>
+      
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up">
+          <div class="form-container">
+            <form id="tripForm">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="name" class="form-label fw-medium">Full Name</label>
+                    <input type="text" class="form-control" id="name" required placeholder="Enter your full name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="email" class="form-label fw-medium">Email Address</label>
+                    <input type="email" class="form-control" id="email" required placeholder="your.email@example.com">
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mb-3">
+                <label for="dates" class="form-label fw-medium">Travel Dates</label>
+                <input type="text" class="form-control" id="dates" placeholder="Select your travel dates">
+              </div>
+              
+              <div class="mb-3">
+                <label for="destination" class="form-label fw-medium">Dream Destination</label>
+                <input type="text" class="form-control" id="destination" placeholder="Where would you like to explore?">
+              </div>
+              
+              <div class="mb-3">
+                <label for="travelers" class="form-label fw-medium">Number of Travelers</label>
+                <select class="form-select" id="travelers">
+                  <option selected value="">Select number of travelers</option>
+                  <option value="1">1 Traveler</option>
+                  <option value="2">2 Travelers</option>
+                  <option value="3-4">3-4 Travelers</option>
+                  <option value="5-6">5-6 Travelers</option>
+                  <option value="7+">7+ Travelers</option>
+                </select>
+              </div>
+              
+              <div class="mb-4">
+                <label for="budget" class="form-label fw-medium">Estimated Budget (per person)</label>
+                <select class="form-select" id="budget">
+                  <option selected value="">Select budget range</option>
+                  <option value="luxury">Luxury (R150,000+)</option>
+                  <option value="premium">Premium (R75,000 - R150,000)</option>
+                  <option value="comfort">Comfort (R30,000 - R75,000)</option>
+                  <option value="custom">Custom Budget</option>
+                </select>
+              </div>
+              
+              <div class="mb-4">
+                <label class="form-label fw-medium">Travel Preferences (Select all that apply)</label>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="luxury" id="luxury">
+                      <label class="form-check-label" for="luxury">Luxury Accommodations</label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="adventure" id="adventure">
+                      <label class="form-check-label" for="adventure">Adventure Activities</label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="culinary" id="culinary">
+                      <label class="form-check-label" for="culinary">Culinary Experiences</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="culture" id="culture">
+                      <label class="form-check-label" for="culture">Cultural Immersion</label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="relaxation" id="relaxation">
+                      <label class="form-check-label" for="relaxation">Relaxation & Wellness</label>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" value="shopping" id="shopping">
+                      <label class="form-check-label" for="shopping">Shopping & Fashion</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mb-4">
+                <label for="message" class="form-label fw-medium">Additional Notes</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tell us about your dream trip..."></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-modern w-100 py-3">
+                <i class="fas fa-paper-plane me-2"></i>Submit Inquiry
+              </button>
+              
+              <div class="spinner" id="formSpinner"></div>
+              <div class="form-feedback" id="formFeedback"></div>
+              
+              <p class="text-muted text-center mt-3 small">
+                By submitting, you agree to our Privacy Policy. One of our travel specialists will contact you within 24 hours.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center" data-aos="fade-up">
+          <div class="cta-content p-4 rounded-4">
+            <h2 class="mb-3">Your Extraordinary Journey Awaits</h2>
+            <p class="lead mb-4">Let our team of experts handle every detail while you focus on creating unforgettable memories.</p>
+            <div class="cta-buttons">
+              <a href="#planning" class="btn btn-light px-4 me-2 mb-2">
+                <i class="fas fa-calendar-alt me-2"></i>Book Consultation
+              </a>
+              <a href="tel:+278001234567" class="btn btn-outline-light px-4 mb-2">
+                <i class="fas fa-phone me-2"></i>Call Now
+              </a>
+            </div>
+            <p class="mt-3 small opacity-75">
+              <i class="fas fa-clock me-1"></i> Available 24/7 for your travel needs
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-us-section section-padding">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center" data-aos="fade-up">
+          <h2 class="section-title">The Seamless Difference</h2>
+          <p class="lead">Why discerning travelers choose us</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="feature-box-image h-100">
+            <div class="feature-image mb-3">
+              <img src="imgs/ex_access.jpg" alt="Exclusive Access">
+            </div>
+            <h4 class="mb-3">Exclusive Access</h4>
+            <p class="text-muted">VIP treatment and access to experiences unavailable to the general public through our premium partnerships.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-box-image h-100">
+            <div class="feature-image mb-3">
+              <img src="imgs/travel_designer.jpg" alt="Personal Travel Designer">
+            </div>
+            <h4 class="mb-3">Personal Travel Designer</h4>
+            <p class="text-muted">A dedicated expert who understands your preferences and crafts journeys that exceed expectations.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-box-image h-100">
+            <div class="feature-image mb-3">
+              <img src="imgs/global_protection.jpg" alt="Global Protection">
+            </div>
+            <h4 class="mb-3">Global Protection</h4>
+            <p class="text-muted">Comprehensive travel insurance and 24/7 emergency support wherever you are in the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA Section -->
+  <section class="final-cta-section section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center" data-aos="fade-up">
+          <div class="final-cta-content p-4 rounded-4">
+            <h2 class="mb-3">Ready to Begin Your Journey?</h2>
+            <p class="lead mb-4">Join thousands of travelers who have experienced the world through our expert curation.</p>
+            <div class="stats-row mb-4">
+              <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                  <div class="stat-item">
+                    <h3 class="display-6 fw-bold mb-1">15+</h3>
+                    <p class="mb-0">Years of Excellence</p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="stat-item">
+                    <h3 class="display-6 fw-bold mb-1">5,000+</h3>
+                    <p class="mb-0">Satisfied Travelers</p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="stat-item">
+                    <h3 class="display-6 fw-bold mb-1">80+</h3>
+                    <p class="mb-0">Countries Covered</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#planning" class="btn btn-modern px-4">
+              <i class="fas fa-compass me-2"></i>Start Your Adventure
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h4 class="mb-3">Seamless Travel</h4>
+          <p class="opacity-75 mb-3">Crafting extraordinary journeys for the discerning traveler since 2010.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h5 class="mb-3">Quick Links</h5>
+          <div class="row">
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#home" class="footer-link">Home</a></li>
+                <li class="mb-2"><a href="#about" class="footer-link">About Us</a></li>
+                <li class="mb-2"><a href="#destinations" class="footer-link">Destinations</a></li>
+                <li class="mb-2"><a href="#services" class="footer-link">Services</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="#stores" class="footer-link">Visit Us</a></li>
+                <li class="mb-2"><a href="#experience" class="footer-link">Experiences</a></li>
+                <li class="mb-2"><a href="#planning" class="footer-link">Plan Your Trip</a></li>
+                <li class="mb-2"><a href="#" class="footer-link">Testimonials</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4">
+          <h5 class="mb-3">Contact Info</h5>
+          <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>123 Luxury Avenue, Suite 500</p>
+          <p class="mb-2 small ms-4">Sandton, Johannesburg, 2196</p>
+          <p class="mb-2"><i class="fas fa-phone me-2"></i>+27 11 234 5678</p>
+          <p class="mb-3"><i class="fas fa-envelope me-2"></i>info@seamlesstravel.co.za</p>
+          
+          <h6 class="mb-2">Newsletter</h6>
+          <form class="newsletter-form">
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Your email address" required>
+              <button class="btn btn-modern" type="submit">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+      <div class="row pt-3 border-top border-white border-opacity-10">
+        <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+          <p class="mb-0 opacity-75 small">&copy; 2025 Seamless Travel. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0 small">
+            <a href="#" class="footer-link me-3">Privacy Policy</a>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Floating Buttons -->
+  <div class="floating-buttons">
+    <!-- WhatsApp Button - Bottom Left -->
+    <a href="" 
+       class="whatsapp-btn" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Chat with us on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+      <span class="btn-tooltip">Chat with us</span>
+    </a>
+    
+    <!-- Back to Top Button - Bottom Right -->
+    <button class="back-to-top-btn" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+      <span class="btn-tooltip">Back to top</span>
+    </button>
+  </div>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <script src="index.js"></script>
+</body>
+</html>
